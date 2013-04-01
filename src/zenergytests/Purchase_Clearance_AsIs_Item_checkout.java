@@ -23,6 +23,7 @@ public class Purchase_Clearance_AsIs_Item_checkout {
     private String baseUrl = "http://www.qvc.com/";
     QvcUtilities utilities = new QvcUtilities(driver);
     SeleniumVerify verify = new SeleniumVerify(driver);
+    QvcCartPage cart = new QvcCartPage(driver);
     
     public Purchase_Clearance_AsIs_Item_checkout(){
        //Start on homepage
