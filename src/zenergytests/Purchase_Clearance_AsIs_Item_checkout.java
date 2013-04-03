@@ -18,7 +18,7 @@ Pre Condition: User starts at the home page. There are no items in the shopping 
 Data Consideration: User will purchase a quantity of 1…color and size can be selected freely
  */
 public class Purchase_Clearance_AsIs_Item_checkout {
-    
+    //coments
     WebDriver driver = new FirefoxDriver();
     private String baseUrl = "http://www.qvc.com/";
     QvcUtilities utilities = new QvcUtilities(driver);
