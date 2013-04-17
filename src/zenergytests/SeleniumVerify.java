@@ -24,4 +24,13 @@ public class SeleniumVerify {
             System.out.println("Title is \"" + actualTitle + "\" where the expected title was \"" + expectedTitle + "\"");
         }
     }
+    public boolean isTextPresent(String text){
+    try{
+        boolean t = driver.getPageSource().contains(text);
+        return t;
+    }
+    catch(Exception e){
+        return false;
+    }
+  }
 }
